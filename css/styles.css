@@ -1,0 +1,26 @@
+.logo {
+  color: #2e2f42;
+}
+
+.logo.accent {
+  color: #4d5ae5;
+}
+
+.nav-link {
+  color: #2e2f42;
+}
+
+.hero-section {
+  background-color: #2e2f42; /* TODO: replace with image */
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.hero-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
