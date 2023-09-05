@@ -1,13 +1,38 @@
-.logo {
+body {
   color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  font-size: 16px;
 }
 
-.logo.accent {
+.logo {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-accent {
   color: #4d5ae5;
 }
 
 .nav-link {
   color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.address-item {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .hero-section {
@@ -16,11 +41,26 @@
 
 .hero-title {
   color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
 }
 
 .hero-button {
-  background-color: #4d5ae5;
   color: #ffffff;
+  font-family: inherit;
+  font-weight: 500;
+  background-color: #4d5ae5;
   cursor: pointer;
   border: none;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
