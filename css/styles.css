@@ -1,6 +1,6 @@
 /* Base */
 body {
-  color: #2e2f42;
+  color: #434455;
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   font-size: 16px;
@@ -109,6 +109,7 @@ ul {
 }
 
 .principle-text {
+  color: #434455;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -119,12 +120,17 @@ ul {
   background-color: #f4f4fd;
 }
 
+.team-item {
+  background-color: #ffffff;
+}
+
 .team-section-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .team-title {
@@ -135,6 +141,7 @@ ul {
 }
 
 .team-text {
+  color: #434455;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -147,6 +154,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .portfolio-title {
@@ -157,6 +165,7 @@ ul {
 }
 
 .portfolio-text {
+  color: #434455;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
