@@ -18,10 +18,10 @@ ul {
 
 .logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -37,7 +37,8 @@ ul {
   letter-spacing: 0.32px;
 }
 
-.nav-link:active {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -50,7 +51,8 @@ ul {
   letter-spacing: 0.32px;
 }
 
-.address-item:active {
+.address-item:hover,
+.address-item:focus {
   color: #404bbf;
 }
 
@@ -65,6 +67,7 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
 }
 
 .hero-button {
@@ -75,9 +78,11 @@ ul {
   cursor: pointer;
   border: none;
   line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
