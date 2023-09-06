@@ -1,3 +1,4 @@
+/* Base */
 body {
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
@@ -5,8 +6,18 @@ body {
   font-size: 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header */
+
 .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
@@ -15,8 +26,8 @@ body {
   text-transform: uppercase;
 }
 
-.logo-accent {
-  color: #4d5ae5;
+.logo-accent-header {
+  color: #2e2f42;
 }
 
 .nav-link {
@@ -24,6 +35,10 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.nav-link:active {
+  color: #404bbf;
 }
 
 .address-item {
@@ -35,6 +50,11 @@ body {
   letter-spacing: 0.32px;
 }
 
+.address-item:active {
+  color: #404bbf;
+}
+
+/* Hero section */
 .hero-section {
   background-color: #2e2f42; /* TODO: replace with image */
 }
@@ -57,10 +77,96 @@ body {
   line-height: 1.5;
 }
 
-a {
-  text-decoration: none;
+.hero-button:hover {
+  background-color: #404bbf;
 }
 
-ul {
-  list-style-type: none;
+/* Principles section */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.principle-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.principle-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* Team section */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.team-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.team-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* Portfolio section */
+
+.portfolio-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.portfolio-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.portfolio-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-accent-footer {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
