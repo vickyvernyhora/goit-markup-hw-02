@@ -42,17 +42,17 @@ ul {
   color: #404bbf;
 }
 
-.address {
+.address-item {
+  font-style: normal;
   color: #434455;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
-.address:hover,
-.address:focus {
+.address-item:hover,
+.address-item:focus {
   color: #404bbf;
 }
 
