@@ -42,7 +42,7 @@ ul {
   color: #404bbf;
 }
 
-.address-item {
+.address {
   color: #434455;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -51,8 +51,8 @@ ul {
   letter-spacing: 0.32px;
 }
 
-.address-item:hover,
-.address-item:focus {
+.address:hover,
+.address:focus {
   color: #404bbf;
 }
 
@@ -87,19 +87,6 @@ ul {
 }
 
 /* Principles section */
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
 .principle-title {
   color: #2e2f42;
