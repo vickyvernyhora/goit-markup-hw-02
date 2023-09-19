@@ -1,4 +1,5 @@
 /* Base */
+
 body {
   color: #434455;
   font-family: "Roboto", sans-serif;
@@ -12,11 +13,54 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 32px;
 }
 
 /* Header */
 
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.header-address {
+  display: flex;
+  gap: 40px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 40px;
+}
+
 .logo {
+  display: flex;
+  align-items: center;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -30,7 +74,16 @@ ul {
   color: #2e2f42;
 }
 
+.nav-list {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 40px;
+}
+
 .nav-link {
+  display: inline-block;
+  padding: 24px 0;
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
@@ -70,6 +123,10 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 48px;
+  max-width: 496px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -153,6 +210,9 @@ ul {
 }
 
 /* Portfolio section */
+
+.portfolio-section {
+}
 
 .portfolio-section-title {
   color: #2e2f42;
